@@ -25,3 +25,67 @@
   border-radius: 8px;
   object-fit: cover;
 }
+
+@media (max-width: 1115px) {
+  .UnwerslCard {
+    margin-top: 160px;
+    width: 690px;
+    height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .UnwerslCard .UnwerslCard-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .UnwerslCard .UnwerslCard-left img {
+    width: 277px;
+    height: 174px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .UnwerslCard .UnwerslCard-right img {
+    width: 395px;
+    height: 368px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 689px) {
+  .UnwerslCard {
+    margin-top: 160px;
+    width: 327px;
+    height: 368px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .UnwerslCard .UnwerslCard-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .UnwerslCard .UnwerslCard-left img {
+    width: 277px;
+    height: 174px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .UnwerslCard .UnwerslCard-right img {
+    width: 277px;
+    height: 174px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}

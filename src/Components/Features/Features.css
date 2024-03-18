@@ -29,6 +29,11 @@
   gap: 10px;
 }
 
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start !important;
+}
 .features-wrapper .InBox h2 {
   margin-bottom: 26px;
 }
@@ -50,4 +55,52 @@
 }
 .features-wrapper .inbox-item p:nth-child(1) {
   color: rgb(216, 125, 74);
+}
+@media (max-width: 1115px) {
+  .features-wrapper {
+    margin-top: 140px;
+    width: 689px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .features-wrapper .InBox {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 689px) {
+  .features-wrapper {
+    margin-top: 140px;
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .features-wrapper .features p {
+    width: 327px;
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    opacity: 0.5;
+  }
+  .features-wrapper .features {
+    width: max-content;
+  }
+
+  .features-wrapper .InBox {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

@@ -14,7 +14,7 @@ function Shopping() {
   const products = data ? data.value : [];
 
   return (
-    <>
+    <div className="bacground">
       {data ? (
         <div className="shoppinng-wrapper">
           <Link to="/">Go Back</Link>
@@ -137,7 +137,7 @@ function Shopping() {
       ) : (
         <Null />
       )}
-    </>
+    </div>
   );
 }
 

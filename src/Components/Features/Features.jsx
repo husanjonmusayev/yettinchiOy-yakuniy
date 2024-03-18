@@ -21,26 +21,30 @@ function Features() {
         </p>
       </div>
       <div className="InBox">
-        <h2>in the box</h2>
-        <div className="inbox-item">
-          <p>1x</p>
-          <p>Headphone Unit</p>
+        <div className="inbox-tex">
+          <h2>in the box</h2>
         </div>
-        <div className="inbox-item">
-          <p>2x</p>
-          <p>Replacement Earcups</p>
-        </div>
-        <div className="inbox-item">
-          <p>1x</p>
-          <p>User Manual</p>
-        </div>
-        <div className="inbox-item">
-          <p>1x</p>
-          <p>3.5mm 5m Audio Cable</p>
-        </div>
-        <div className="inbox-item">
-          <p>1x</p>
-          <p>Travel Bag</p>
+        <div className="item-wrapper">
+          <div className="inbox-item">
+            <p>1x</p>
+            <p>Headphone Unit</p>
+          </div>
+          <div className="inbox-item">
+            <p>2x</p>
+            <p>Replacement Earcups</p>
+          </div>
+          <div className="inbox-item">
+            <p>1x</p>
+            <p>User Manual</p>
+          </div>
+          <div className="inbox-item">
+            <p>1x</p>
+            <p>3.5mm 5m Audio Cable</p>
+          </div>
+          <div className="inbox-item">
+            <p>1x</p>
+            <p>Travel Bag</p>
+          </div>
         </div>
       </div>
     </div>

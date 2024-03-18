@@ -5,7 +5,7 @@ function MuzonGroup() {
   return (
     <div className="muzonGroup">
       <h1>you may also like</h1>
-      <div className="item-wrapper">
+      <div className="muzon-item-wrapper">
         <div className="muzon-item">
           <img src="/xx99II.png" alt="image" />
           <h2>XX99 MARK I</h2>
