@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import "./App.css";
 import Login from "./pages/Login/Login";
 import Home from "./pages/Home/Home";
@@ -11,50 +11,26 @@ import Earphones from "./pages/Earphones/Earphones";
 import InfoCard from "./pages/InfoCard/InfoCard";
 import Spekars from "./pages/Spekars/Spekars";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
-import { useSelector } from "react-redux";
 
 function App() {
-  const location = useLocation();
-  const isLogin = useSelector((state) => state.login.value);
-  const [user, setUser] = useState(
-    () => !!JSON.parse(localStorage.getItem("user"))
-  );
   const navigate = useNavigate();
+  const [token, setToken] = useState(localStorage.getItem("token"));
 
   useEffect(() => {
-    const storedUser = JSON.parse(localStorage.getItem("user"));
-
-    if (
-      !storedUser &&
-      location.pathname !== "/login" &&
-      location.pathname !== "/register"
-    ) {
+    setToken(localStorage.getItem("token"));
+    if (!token && window.location.pathname !== "/register") {
+      // Check if user is not on the register page
       navigate("/login");
     }
-  }, [location.pathname, navigate]);
+  }, [token, navigate]);
 
-  useEffect(() => {
-    if (isLogin) {
-      setUser(true);
-      localStorage.setItem("user", JSON.stringify(true));
+  function ProtectedRoute({ children, isAuthentication }) {
+    if (!isAuthentication) {
+      navigate("/login");
+      return null;
     }
-  }, [isLogin]);
-
-  const ProtectedRoute = ({
-    children,
-    redirectTo = "/login",
-    isAuthentication,
-  }) => {
-    const navigate = useNavigate();
-
-    useEffect(() => {
-      if (!isAuthentication && !user) {
-        navigate(redirectTo);
-      }
-    }, [isAuthentication, user, navigate, redirectTo]);
-
-    return isAuthentication ? children : null;
-  };
+    return children;
+  }
 
   return (
     <Routes>
@@ -64,7 +40,7 @@ function App() {
       <Route
         path="/"
         element={
-          <ProtectedRoute isAuthentication={user} redirectTo="/login">
+          <ProtectedRoute isAuthentication={token ? true : false}>
             <MainLayout>
               <Home />
             </MainLayout>
@@ -75,7 +51,7 @@ function App() {
       <Route
         path="/headphones"
         element={
-          <ProtectedRoute isAuthentication={user} redirectTo="/login">
+          <ProtectedRoute isAuthentication={token ? true : false}>
             <MainLayout>
               <Headphones />
             </MainLayout>
@@ -86,7 +62,7 @@ function App() {
       <Route
         path="/shopping"
         element={
-          <ProtectedRoute isAuthentication={user} redirectTo="/login">
+          <ProtectedRoute isAuthentication={token ? true : false}>
             <MainLayout>
               <Shopping />
             </MainLayout>
@@ -96,7 +72,7 @@ function App() {
       <Route
         path="/earphones"
         element={
-          <ProtectedRoute isAuthentication={user} redirectTo="/login">
+          <ProtectedRoute isAuthentication={token ? true : false}>
             <MainLayout>
               <Earphones />
             </MainLayout>
@@ -106,7 +82,7 @@ function App() {
       <Route
         path="/infoCard"
         element={
-          <ProtectedRoute isAuthentication={user} redirectTo="/login">
+          <ProtectedRoute isAuthentication={token ? true : false}>
             <MainLayout>
               <InfoCard />
             </MainLayout>
@@ -117,7 +93,7 @@ function App() {
       <Route
         path="/spekars"
         element={
-          <ProtectedRoute isAuthentication={user} redirectTo="/login">
+          <ProtectedRoute isAuthentication={token ? true : false}>
             <MainLayout>
               <Spekars />
             </MainLayout>

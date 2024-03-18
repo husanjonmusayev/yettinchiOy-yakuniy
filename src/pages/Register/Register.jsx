@@ -12,10 +12,9 @@ function Register() {
     e.preventDefault();
     if (RegValidate(username, password, email)) {
       let user = {
-        name: username.current.value,
+        username: username.current.value,
         email: email.current.value,
         password: password.current.value,
-        login: true,
       };
       localStorage.setItem("users", JSON.stringify(user));
       navigate("/");

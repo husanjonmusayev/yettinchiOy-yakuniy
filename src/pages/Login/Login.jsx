@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const savedUser = JSON.parse(localStorage.getItem("users"));
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const username = useRef();
@@ -19,12 +20,12 @@ function Login() {
         password: password.current.value,
         login: true,
       };
-      const savedUser = JSON.parse(localStorage.getItem("users"));
       if (
         savedUser &&
-        savedUser.name === user.name &&
+        savedUser.username === user.name &&
         savedUser.password === user.password
       ) {
+        localStorage.setItem("token", true);
         dispatch(isLogin());
         navigate("/");
       } else {
