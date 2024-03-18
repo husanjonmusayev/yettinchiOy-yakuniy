@@ -1,0 +1,149 @@
+.modal-main {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* shaffof qora fon */
+}
+
+.modal-main h2 {
+  margin-top: 33px;
+  width: 294px;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.14px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.modal-cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-cards-wrapper .order-card-right {
+  color: white;
+  width: 198px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 0, 0);
+}
+
+.modal-cards-wrapper .order-card {
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: rgb(241, 241, 241);
+  height: 140px;
+  padding: 24px;
+  width: 100%;
+}
+.modal-main p {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  opacity: 0.5;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.modal-main .SeeProduct {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  background-color: rgb(216, 125, 74);
+  transition: all 0.5s;
+}
+.modal-main .SeeProduct:hover {
+  background-color: rgb(240, 155, 105);
+}
+
+.modal-main .modal-content {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 5% 33%;
+
+  border: 1px solid #888;
+  width: 540px;
+  height: 581px;
+  border-radius: 8px;
+}
+
+.modal-main .modai-item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-main .close {
+  color: #5c5c5c;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Modal CSS */
+.modal-main .modal-enter {
+  opacity: 0;
+}
+
+.modal-main .modal-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.modal-main .modal-exit {
+  opacity: 1;
+}
+
+.modal-main .modal-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+/* Modal CSS */
+.modal-main .modal-enter {
+  opacity: 0;
+}
+
+.modal-main .modal-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.modal-main .modal-exit {
+  opacity: 1;
+}
+
+.modal-main .modal-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

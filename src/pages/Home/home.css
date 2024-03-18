@@ -1,0 +1,768 @@
+/* .thum-wrapper */
+.thum-wrapper {
+  margin-top: 168px;
+  width: 1110px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  background: rgb(216, 125, 74);
+  background-image: url(../../../public/Group.png);
+  background-repeat: no-repeat;
+}
+
+.hero-wrap {
+  width: 100%;
+}
+.bacground-wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #0e0e0e;
+}
+.hero-wrapper {
+  width: 1110px;
+  height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./../../../public/headphones.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.hero-wrapper .tex {
+  width: 398px;
+  padding-top: 128px;
+}
+.tex h3 {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.tex h2 {
+  margin-top: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.tex p {
+  margin-top: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.75;
+}
+.tex button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  background: rgb(216, 125, 74);
+  transition: all 0.5s;
+}
+.tex button:hover {
+  background: rgb(235, 163, 121);
+}
+
+.cards-wrapper {
+  margin-top: 120px;
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cards-wrapper .card-wrapper {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 284px;
+  position: relative;
+  transition: all 0.5s;
+}
+.cards-wrapper .card-wrapper:hover {
+  transform: scale(1.1);
+}
+.card-wrapper .imgs {
+  height: 100px;
+  width: 100%;
+}
+
+.card-wrapper .card {
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+  width: 100%;
+  height: 184px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: end;
+}
+.card-wrapper .absolute {
+  position: absolute;
+  transform: translate(-50%, 10%);
+  left: 50%;
+  right: 50%;
+}
+.card-wrapper .absolute2 {
+  position: absolute;
+  transform: translate(-50%, 13%);
+  left: 50%;
+  right: 50%;
+}
+.card-wrapper .absolute3 {
+  position: absolute;
+  transform: translate(-50%, 25%);
+  left: 50%;
+  right: 50%;
+}
+
+.card h3 {
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.29px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+.card p {
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.card a img {
+  width: 5px;
+  height: 10px;
+}
+
+.thum-wrapper {
+  margin-top: 168px;
+  width: 1110px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  background: rgb(216, 125, 74);
+  background-image: url(../../../public/Group.png);
+  background-repeat: no-repeat;
+}
+
+.thum-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.img-wrapper {
+  position: relative;
+}
+.img-wrapper img {
+  position: absolute;
+  bottom: 0;
+  left: -60px;
+}
+.tex-wrapper {
+  width: 350px;
+  margin-left: 100px;
+  margin-top: 133px;
+}
+.tex-wrapper h2 {
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.tex-wrapper p {
+  opacity: 0.75;
+  margin-top: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.tex-wrapper button {
+  margin-top: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  border: none;
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  transition: all 0.5s;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.tex-wrapper button:hover {
+  background-color: #ffffff;
+  color: #0e0e0e;
+}
+
+.speaker-wrapper {
+  margin-top: 80px;
+  width: 1110px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../../public/Bitmap.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.spaker-tex {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.spaker-tex h2 {
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.spaker-tex button {
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #0e0e0e;
+  transition: all 0.5s;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.spaker-tex button:hover {
+  color: white;
+  background-color: #0e0e0e;
+}
+
+.earphones-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 1110px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.earphones-tex {
+  padding-top: 101px;
+  padding-left: 95px;
+  width: 540px;
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+}
+.earphones-tex h2 {
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.earphones-tex button {
+  margin-top: 32px;
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #0e0e0e;
+  transition: all 0.5s;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.earphones-tex button:hover {
+  color: white;
+  background-color: #0e0e0e;
+}
+@media (max-width: 1115px) {
+  .hero-wrapper {
+    width: 898px;
+    height: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./../../../public/headphones.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+  .thum-wrapper {
+    margin-top: 168px;
+    width: 898px;
+    height: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background: rgb(216, 125, 74);
+    background-image: url(../../../public/Group.png);
+    background-repeat: no-repeat;
+  }
+  .speaker-wrapper {
+    margin-top: 80px;
+    width: 898px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../../public/Bitmap.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .earphones-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 898px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thum-wrapper {
+    display: flex;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 898px) {
+  .hero-wrapper {
+    width: 689px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./../../../public/headphones.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .hero-wrapper .tex {
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+  }
+
+  .thum-wrapper {
+    margin-top: 168px;
+    width: 689px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background: rgb(216, 125, 74);
+    background-image: url(../../../public/oval.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .img-wrapper img {
+    position: relative;
+    margin-left: 100px;
+    width: 197px;
+    height: 237px;
+  }
+  .speaker-wrapper {
+    margin-top: 80px;
+    width: 689px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../../public/Bitmap.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .earphones-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 689px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .earphones-wrapper img {
+    width: 339px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .thum-wrapper {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .tex-wrapper {
+    width: 350px;
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tex-wrapper h2 {
+    width: 261px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .tex-wrapper p {
+    text-align: center;
+    opacity: 0.75;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .tex-wrapper button {
+    width: 163px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e;
+    transition: all 0.5s;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 718px) {
+  .hero-wrapper {
+    width: 527px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./../../../public/headphones.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero-wrapper .tex {
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+  }
+
+  .thum-wrapper {
+    margin-top: 168px;
+    width: 527px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background: rgb(216, 125, 74);
+    background-image: url(../../../public/oval.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .img-wrapper img {
+    position: relative;
+    margin-left: 100px;
+    width: 197px;
+    height: 237px;
+  }
+  .speaker-wrapper {
+    margin-top: 80px;
+    width: 527px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../../public/Bitmap.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .earphones-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 80px;
+    width: 527px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 280px;
+  }
+  .earphones-wrapper img {
+    width: 527px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .thum-wrapper {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .tex-wrapper {
+    width: 350px;
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tex-wrapper h2 {
+    width: 261px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .tex-wrapper p {
+    text-align: center;
+    opacity: 0.75;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .tex-wrapper button {
+    width: 163px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e;
+    transition: all 0.5s;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  .earphones-tex {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 95px;
+    width: 540px;
+    border-radius: 8px;
+    background: rgb(241, 241, 241);
+  }
+}
+@media (max-width: 556px) {
+  .hero-wrapper {
+    width: 327px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./../../../public/headphones.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero-wrapper .tex {
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 128px;
+  }
+
+  .thum-wrapper {
+    margin-top: 168px;
+    width: 327px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background: rgb(216, 125, 74);
+    background-image: url(../../../public/oval.png);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .img-wrapper img {
+    position: relative;
+    margin-left: 100px;
+    width: 197px;
+    height: 237px;
+  }
+  .speaker-wrapper {
+    margin-top: 80px;
+    width: 327px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../../public/Bitmap.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .earphones-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 80px;
+    width: 327px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 280px;
+  }
+  .earphones-wrapper img {
+    width: 327px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .thum-wrapper {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+  .tex-wrapper {
+    width: 327px;
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tex-wrapper h2 {
+    width: 261px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .tex-wrapper p {
+    text-align: center;
+    opacity: 0.75;
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .tex-wrapper button {
+    width: 163px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    background-color: #0e0e0e;
+    border: 1px solid #0e0e0e;
+    transition: all 0.5s;
+    padding: 15px 30px;
+    cursor: pointer;
+  }
+  .earphones-tex {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 95px;
+    width: 327px;
+    border-radius: 8px;
+    background: rgb(241, 241, 241);
+  }
+}

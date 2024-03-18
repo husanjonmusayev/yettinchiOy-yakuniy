@@ -1,0 +1,28 @@
+.errorPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+}
+.errorPage h1 {
+  font-size: 60px;
+}
+
+.errorPage a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: white;
+  transition: all 0.5s;
+}
+.errorPage a:hover {
+  transform: scale(1.1);
+}
