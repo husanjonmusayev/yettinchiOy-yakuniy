@@ -19,7 +19,6 @@ function App() {
   useEffect(() => {
     setToken(localStorage.getItem("token"));
     if (!token && window.location.pathname !== "/register") {
-      // Check if user is not on the register page
       navigate("/login");
     }
   }, [token, navigate]);
